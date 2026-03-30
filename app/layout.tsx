@@ -2,8 +2,8 @@ import "./globals.css";
 import type { ReactNode } from "react";
 
 export const metadata = {
-    title: "Typed Signup Form",
-    description: "型安全な会員登録フォーム",
+    title: "会員登録フォーム",
+    description: "Type-safe signup form built with Next.js",
 };
 
 export default function RootLayout({

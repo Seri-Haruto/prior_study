@@ -189,4 +189,6 @@ zodを用いて実行時バリデーションを行っています。
 
 ## デプロイ
 
-Vercelでのデプロイを想定しています。
+Vercelでデプロイしました。
+以下にURLを添付します。
+https://prior-study.vercel.app/

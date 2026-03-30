@@ -151,7 +151,7 @@ export default function SignupForm() {
                 />
                 </div>
                 <p className="text-xs text-slate-500">
-                未入力の場合は null として送信されます。
+                未入力の場合は null として送信されます。（nullable）
                 </p>
                 {errors.nickname && (
                 <p className="text-sm font-medium text-rose-500">
@@ -161,7 +161,7 @@ export default function SignupForm() {
             </div>
 
             <div className="space-y-2 sm:col-span-2">
-                <Label htmlFor="email">メールアドレス（任意）</Label>
+                <Label htmlFor="email">メールアドレス（任意 / optional）</Label>
                 <div className="relative">
                 <Mail className="pointer-events-none absolute left-4 top-1/2 h-4 w-4 -translate-y-1/2 text-slate-400" />
                 <Input

@@ -1,13 +1,10 @@
 import { NextResponse } from "next/server";
 import { signupSchema } from "@/lib/validators/signup";
+import { generateUserId } from "@/lib/utils";
 import type {
     SignupErrorResponse,
     SignupSuccessResponse,
 } from "@/types/api";
-
-function generateUserId(): string {
-    return crypto.randomUUID();
-}
 
 export async function POST(request: Request) {
     try {

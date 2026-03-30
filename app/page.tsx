@@ -18,9 +18,9 @@ export default function HomePage() {
                 </h1>
 
                 <p className="mt-5 max-w-xl text-sm leading-7 text-slate-600 sm:text-base">
-                    Next.js、TypeScript、React Hook Form、zod を用いて、
-                    型安全なフォームを実装しました。optional と nullable の違いや、
-                    クライアント側・サーバー側のバリデーション分担も意識しています。
+                    Next.js，TypeScript，React Hook Form，zod を用いて、
+                    型安全なフォームを実装しました。optional と nullable の違いや，
+                    クライアント側・サーバー側のバリデーション分担を意識しています。
                 </p>
 
                 <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -44,7 +44,7 @@ export default function HomePage() {
                     <div className="rounded-2xl bg-slate-50 p-4">
                         <p className="text-sm font-medium text-slate-900">型安全</p>
                         <p className="mt-1 text-sm leading-6 text-slate-600">
-                        フォーム入力から API レスポンスまで、型を意識して安全に扱います。
+                        フォーム入力から API レスポンスまで，型を意識して安全に扱います。
                         </p>
                     </div>
 
@@ -53,7 +53,7 @@ export default function HomePage() {
                         バリデーション
                         </p>
                         <p className="mt-1 text-sm leading-6 text-slate-600">
-                        zod によるルール定義を行い、クライアント側・サーバー側で再利用しています。
+                        zod によるルール定義を行い，クライアント側・サーバー側で再利用しています。
                         </p>
                     </div>
 
@@ -62,7 +62,7 @@ export default function HomePage() {
                         optional / nullable
                         </p>
                         <p className="mt-1 text-sm leading-6 text-slate-600">
-                        メールアドレスとニックネームで違いを実装し、データ設計の理解につなげています。
+                        メールアドレスとニックネームで違いを実装しています。
                         </p>
                     </div>
                     </div>
@@ -78,7 +78,7 @@ export default function HomePage() {
                 フロント側で検証
                 </h2>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                React Hook Form と zodResolver を用いて、入力直後にエラーを表示できます。
+                React Hook Form と zodResolver を用いて，入力直後にエラーを表示できます。
                 </p>
             </div>
 
@@ -88,7 +88,7 @@ export default function HomePage() {
                 サーバー側でも再検証
                 </h2>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                API Route でも同じ schema を使って検証し、不正な入力を受け取らない設計にしています。
+                API Route でも同じ schema を使って検証し，不正な入力を受け取らない設計にしています。
                 </p>
             </div>
 
@@ -98,7 +98,7 @@ export default function HomePage() {
                 コンポーネント分割
                 </h2>
                 <p className="mt-2 text-sm leading-6 text-slate-600">
-                UI・バリデーション・API・型定義を分離し、読みやすく保守しやすい構成にしています。
+                UI・バリデーション・API・型定義を分離し，読みやすく保守しやすい構成にしています。なお，any は使用していません
                 </p>
             </div>
             </section>

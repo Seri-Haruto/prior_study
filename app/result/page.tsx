@@ -80,7 +80,7 @@ export default async function ResultPage({ searchParams }: ResultPageProps) {
                     ニックネーム
                 </p>
                 <p className="text-sm text-slate-600">
-                    {nickname || "null（nullable）"}
+                    {nickname || "未登録（NULL）"}
                 </p>
                 </div>
 
